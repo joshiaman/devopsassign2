@@ -3,13 +3,13 @@ steps:
     args:
       - 'build'
       - '-t'
-      - 'us-central1-docker.pkg.dev/$PROJECT_ID/firstname-studentid/app:$COMMIT_SHA'
+      - 'us-central1-docker.pkg.dev/$focal-cooler-316103/aman-100944980/app:$COMMIT_SHA'
       - '.'
 
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
-      - 'us-central1-docker.pkg.dev/$PROJECT_ID/firstname-studentid/app:$COMMIT_SHA'
+      - 'us-central1-docker.pkg.dev/$focal-cooler-316103/aman-100944980/app:$COMMIT_SHA'
 
 options:
   logging: CLOUD_LOGGING_ONLY
