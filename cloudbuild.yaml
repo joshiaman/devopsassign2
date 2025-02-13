@@ -16,7 +16,7 @@ steps:
       - 'run'
       - 'deploy'
       - 'your-cloud-run-service-name'
-      - '--image=us-central1-docker.pkg.dev/$PROJECT_ID/firstname-studentid/app:$COMMIT_SHA'
+      - '--image=us-central1-docker.pkg.dev/$PROJECT_ID/aman-100944980/app:$COMMIT_SHA'
       - '--region=us-central1'
       - '--platform=managed'
       - '--allow-unauthenticated'
