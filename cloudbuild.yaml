@@ -15,7 +15,7 @@ steps:
       - 'gcloud'
       - 'run'
       - 'deploy'
-      - 'your-cloud-run-service-name'
+      - 'joshi-100944980'
       - '--image=us-central1-docker.pkg.dev/$PROJECT_ID/aman-100944980/app:$COMMIT_SHA'
       - '--region=us-central1'
       - '--platform=managed'
